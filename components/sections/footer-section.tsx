@@ -1,0 +1,15 @@
+import Link from "next/link";
+import { ArrowUpRight, MapPin } from "lucide-react";
+
+export function FooterSection() {
+  return <>
+    <section id="join" className="relative overflow-hidden bg-[#D5EE91] px-6 py-28 text-[#171812] md:px-12 md:py-40 lg:px-20">
+      <div className="pointer-events-none absolute -bottom-52 -right-44 h-[700px] w-[700px] rounded-full border border-[#607B3F]/15" aria-hidden="true"/><div className="pointer-events-none absolute -bottom-32 -right-24 h-[530px] w-[530px] rounded-full border border-[#607B3F]/15" aria-hidden="true"/>
+      <div className="relative mx-auto max-w-[1440px]"><p className="mb-8 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#415B2B]"><MapPin size={16}/> Starting with Helsinki</p><h2 className="max-w-5xl text-[clamp(3.4rem,9vw,10rem)] leading-[0.94] tracking-[-0.09em]">Your next moment<br/>is <span className="italic">HERE.</span></h2><div className="mt-14 flex flex-col items-start justify-between gap-6 border-t border-[#607B3F]/30 pt-8 md:flex-row md:items-end"><p className="max-w-md text-base leading-relaxed text-[#455B33] md:text-lg">More than a new app. A different way to notice the world around you. HERE is preparing for its first community.</p><div className="rounded-full bg-[#171812] px-7 py-4 text-sm font-medium text-white">Coming to iOS &amp; Android <ArrowUpRight size={16} className="ml-3 inline-block"/></div></div></div>
+    </section>
+    <footer className="bg-[#171812] px-6 pb-10 pt-16 text-[#F7F4EE] md:px-12 lg:px-20">
+      <div className="mx-auto max-w-[1440px]"><div className="flex flex-col justify-between gap-12 pb-24 md:flex-row"><div><Link href="#top" className="text-[clamp(4.8rem,14vw,12rem)] font-semibold leading-none tracking-[-0.11em]">HERE.</Link><p className="mt-5 text-sm text-white/55">Be where life happens.</p></div><div className="grid grid-cols-2 gap-14 pt-4 text-sm"><div><h3 className="mb-5 text-xs uppercase tracking-[0.20em] text-[#D5EE91]">Explore</h3><ul className="space-y-3 text-white/65"><li><Link className="hover:text-white" href="#idea">The idea</Link></li><li><Link className="hover:text-white" href="#how-it-works">How it works</Link></li><li><Link className="hover:text-white" href="#experience">The experience</Link></li><li><Link className="hover:text-white" href="#moments">Moments</Link></li></ul></div><div><h3 className="mb-5 text-xs uppercase tracking-[0.20em] text-[#D5EE91]">HERE</h3><ul className="space-y-3 text-white/65"><li><Link className="hover:text-white" href="#our-story">Our story</Link></li><li><Link className="hover:text-white" href="#privacy">Privacy by design</Link></li><li><Link className="hover:text-white" href="#join">Coming soon</Link></li></ul></div></div></div>
+      <div className="flex flex-col items-start justify-between gap-4 border-t border-white/15 pt-7 text-xs text-white/45 md:flex-row"><p>© {new Date().getFullYear()} HERE. An experience by More Data.</p><p>Designed for the real world. First in Helsinki, Finland.</p><a href="#top" className="text-[#D5EE91] hover:text-white">Back to top ↑</a></div></div>
+    </footer>
+  </>;
+}
