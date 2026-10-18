@@ -12,7 +12,7 @@ const moments = [
 ];
 
 export function GallerySection() {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState("150vh");
   const [translateX, setTranslateX] = useState(0);
