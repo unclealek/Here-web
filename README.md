@@ -33,7 +33,7 @@ pnpm build
 1. Unzip this folder and add it to a new GitHub repository, e.g. `here-website`.
 2. Open https://vercel.com/new and **Import Git Repository**.
 3. Choose the repository, keep **Framework Preset: Next.js**, and set **Root Directory** to the root containing `package.json`.
-4. Deploy. There are **no required environment variables** for this marketing website.
+4. Deploy. There are **no required environment variables** for this marketing website. Optional `NEXT_PUBLIC_IOS_APP_URL` and `NEXT_PUBLIC_ANDROID_APP_URL` enable download links on invitation handoff pages once the apps are publicly available.
 5. Connect your domain under Vercel Project Settings → Domains.
 
 You can also deploy via the Vercel CLI:
@@ -45,11 +45,22 @@ vercel
 vercel --prod
 ```
 
+## Added website routes
+
+- `/terms` — clearly marked pre-launch draft Terms of Use
+- `/privacy` — clearly marked pre-launch draft Privacy Policy
+- `/community-guidelines` — clearly marked pre-launch draft Community Guidelines
+- `/g/[shareId]` — generic **app-only** invitation handoff; no web gathering details, no website Supabase access
+
+See `docs/gathering-integration.md` for the app-only Expo + Supabase + Vercel linking plan, `docs/example-gathering-schema.sql` for an optional host-only schema example, and `docs/legal-review-checklist.md` before making the legal pages official.
+
+**No Android/iOS association files with placeholder signing identifiers are published.** Add verified association files to `public/.well-known/` only after confirming real domain, Apple Team ID / bundle ID and Android signing fingerprint. New EAS builds are required when native entitlements change. The website ZIP cannot edit the separate Expo mobile app.
+
 ## Before launch
 - Replace Unsplash-hosted photos with licensed, preferably locally optimized brand photographs. Photo URLs currently load from `images.unsplash.com` at runtime; the site depends on that service for visual imagery.
 - The phone-like experience is a visual illustration, not a real presence API, venue-density prediction, sign-in or mobile-app embed.
 - Add real App Store / Google Play links after the apps are published. Do not represent pre-release buttons as live downloads.
-- Link your **actual, reviewed** Terms, Privacy Policy, contact address and other legal pages before announcing a public launch; they have not been invented here.
+- Review the three new draft legal pages against real app behavior, provide missing company/controller/contacts, and obtain legal review before public launch.
 - Replace the site icon and wordmark if HERE finalizes a different logo design.
 - Test on physical mobile devices with motion / reduced-motion accessibility enabled.
 
@@ -64,4 +75,4 @@ This is a standalone marketing website; no Supabase credentials, Mapbox tokens, 
 
 ## Build verification status
 
-All TypeScript / TSX source files have been syntax-checked. A complete `pnpm build` could not be run in the preparation environment because npm package registry access is disabled there. Please run `pnpm install && pnpm build` in your normal development environment or check Vercel's first deployment build before publishing your domain.
+On 20 October 2026, `pnpm install --frozen-lockfile` and `pnpm build` passed locally, including TypeScript validation and generation of all three legal routes and the dynamic invitation route. Installed-device linking and hosted deployment remain separate release checks.
