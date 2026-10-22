@@ -42,6 +42,7 @@ export function LegalShell({ eyebrow, title, intro, sections, summary }: { eyebr
         </div>
         <div className="mt-16 border-t border-[#607B3F]/20 pt-8 text-sm text-[#607B3F]">
           <div className="flex flex-wrap gap-5">
+            <Link href="/help" className="hover:underline">Help Center</Link>
             <Link href="/terms" className="hover:underline">Terms</Link>
             <Link href="/privacy" className="hover:underline">Privacy</Link>
             <Link href="/community-guidelines" className="hover:underline">Community guidelines</Link>
