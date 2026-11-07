@@ -95,7 +95,7 @@ export default function CommunityGuidelinesPage() {
 
       <LegalSection title="Reporting inappropriate content">
         <p>
-          If you see abusive, misleading, harmful, or private content that should not be shared, report it through the reporting workflow if the feature exists in the app. Where no dedicated tool is available, contact Roam support at <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>.
+          If you see abusive, misleading, harmful, or private content that should not be shared, report it through the reporting workflow if the feature exists in the app. Where no dedicated tool is available, contact Roam support at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
         </p>
         <p>
           Include enough detail to explain what happened, when it happened, who was affected, and what action is needed. Reports are more useful when they contain the relevant group or user context and the nature of the problem.
@@ -140,19 +140,19 @@ export default function CommunityGuidelinesPage() {
 
       <LegalSection title="Contact information">
         <p>
-          For questions about safety, reporting, or moderation, contact <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>.
+          For questions about safety, reporting, or moderation, contact <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
         </p>
         <p>
           If a feature is not yet implemented, it should be treated as part of the product roadmap and not described as present functionality.
         </p>
       </LegalSection>
 
-      <p className="rounded-2xl border border-[#607B3F]/20 bg-[#D5EE91]/30 p-4 text-sm leading-6 text-[#171812]/80">
+      <p className="rounded-2xl border border-[#2039C4]/20 bg-[#E4EBFF]/30 p-4 text-sm leading-6 text-[#182348]/80">
         These guidelines are intentionally written to be friendly and understandable. Before launch, the product owner should verify that the app actually has the reporting, blocking, moderation, and review tools described here, or explicitly label any missing elements as implementation work.
       </p>
 
-      <p className="text-sm text-[#171812]/70">
-        Continue to <Link href="/roam/support" className="text-[#607B3F] underline underline-offset-4">Support</Link> or return to <Link href="/roam" className="text-[#607B3F] underline underline-offset-4">Roam</Link>.
+      <p className="text-sm text-[#182348]/70">
+        Continue to <Link href="/roam/support" className="text-[#2039C4] underline underline-offset-4">Support</Link> or return to <Link href="/roam" className="text-[#2039C4] underline underline-offset-4">Roam</Link>.
       </p>
     </RoamPageLayout>
   );

@@ -50,7 +50,7 @@ export default function TermsPage() {
           You must keep your account secure and not share your sign-in information with others. You are responsible for all activity that occurs under your account, whether or not you authorized it.
         </p>
         <p>
-          If you suspect unauthorized access, account takeover, or a breach of security, contact support promptly at <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>.
+          If you suspect unauthorized access, account takeover, or a breach of security, contact support promptly at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
         </p>
       </LegalSection>
 
@@ -205,7 +205,7 @@ export default function TermsPage() {
 
       <LegalSection title="21. Contact information">
         <p>
-          For questions regarding these Terms, support, moderation, account issues, or privacy concerns, contact <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>.
+          For questions regarding these Terms, support, moderation, account issues, or privacy concerns, contact <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
         </p>
         <p>
           The final address and contact process should be verified by the owner before launch.
@@ -218,12 +218,12 @@ export default function TermsPage() {
         </p>
       </LegalSection>
 
-      <p className="rounded-2xl border border-[#607B3F]/20 bg-[#D5EE91]/30 p-4 text-sm leading-6 text-[#171812]/80">
+      <p className="rounded-2xl border border-[#2039C4]/20 bg-[#E4EBFF]/30 p-4 text-sm leading-6 text-[#182348]/80">
         This draft should be checked against the real app behavior, the backend, and relevant legal counsel before publication. Confirm the exact moderation, retention, deletion, and governing-law provisions before making the terms live.
       </p>
 
-      <p className="text-sm text-[#171812]/70">
-        Go back to <Link href="/roam" className="text-[#607B3F] underline underline-offset-4">Roam</Link> or view the <Link href="/roam/privacy" className="text-[#607B3F] underline underline-offset-4">Privacy Policy</Link>.
+      <p className="text-sm text-[#182348]/70">
+        Go back to <Link href="/roam" className="text-[#2039C4] underline underline-offset-4">Roam</Link> or view the <Link href="/roam/privacy" className="text-[#2039C4] underline underline-offset-4">Privacy Policy</Link>.
       </p>
     </RoamPageLayout>
   );

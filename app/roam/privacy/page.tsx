@@ -182,7 +182,7 @@ export default function PrivacyPolicyPage() {
 
       <LegalSection title="15. How users exercise their rights">
         <p>
-          To exercise your rights, contact Roam support at <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>. Please include your account email address, the specific right you wish to exercise, and any relevant details that will help Roam identify your data.
+          To exercise your rights, contact Roam support at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>. Please include your account email address, the specific right you wish to exercise, and any relevant details that will help Roam identify your data.
         </p>
         <p>
           Roam may ask for additional information to verify your identity before fulfilling a request, especially where the request concerns account deletion, privacy rights, or support history. This is to protect against unauthorized access to personal data.
@@ -221,7 +221,7 @@ export default function PrivacyPolicyPage() {
           For privacy questions, support requests, or rights requests, contact:
         </p>
         <p>
-          <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>
+          <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>
         </p>
         <p>
           The exact legal address and responsible contact details for the data controller should be verified by the owner before launch.
@@ -237,12 +237,12 @@ export default function PrivacyPolicyPage() {
         </p>
       </LegalSection>
 
-      <p className="rounded-2xl border border-[#607B3F]/20 bg-[#D5EE91]/30 p-4 text-sm leading-6 text-[#171812]/80">
+      <p className="rounded-2xl border border-[#2039C4]/20 bg-[#E4EBFF]/30 p-4 text-sm leading-6 text-[#182348]/80">
         Need a final compliance check: verify the actual controller identity, retention periods, sign-in flows, provider list, notification stack, and deletion workflow before publishing this page publicly.
       </p>
 
-      <p className="text-sm text-[#171812]/70">
-        Return to <Link href="/roam" className="text-[#607B3F] underline underline-offset-4">Roam</Link> or review the <Link href="/roam/terms" className="text-[#607B3F] underline underline-offset-4">Terms of Use</Link>.
+      <p className="text-sm text-[#182348]/70">
+        Return to <Link href="/roam" className="text-[#2039C4] underline underline-offset-4">Roam</Link> or review the <Link href="/roam/terms" className="text-[#2039C4] underline underline-offset-4">Terms of Use</Link>.
       </p>
     </RoamPageLayout>
   );

@@ -68,7 +68,7 @@ export default function DeleteAccountPage() {
 
       <LegalSection title="How to request deletion">
         <p>
-          To request deletion of your personal account, email support at <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a> with a clear request that you want your Roam account deleted.
+          To request deletion of your personal account, email support at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a> with a clear request that you want your Roam account deleted.
         </p>
         <p>
           Include the account email, your Roam username or display name, and any relevant group or game details. If you are a group owner or active participant, mention that context so the support team can review the correct next steps.
@@ -95,16 +95,16 @@ export default function DeleteAccountPage() {
 
       <LegalSection title="Contact support">
         <p>
-          If you need help with a deletion request, account recovery, group ownership transfer, privacy rights, or an active game issue, contact <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a>.
+          If you need help with a deletion request, account recovery, group ownership transfer, privacy rights, or an active game issue, contact <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
         </p>
       </LegalSection>
 
-      <p className="rounded-2xl border border-[#607B3F]/20 bg-[#D5EE91]/30 p-4 text-sm leading-6 text-[#171812]/80">
+      <p className="rounded-2xl border border-[#2039C4]/20 bg-[#E4EBFF]/30 p-4 text-sm leading-6 text-[#182348]/80">
         This page is a working draft. Before launch, the product owner should verify the exact deletion flow for regular members, group owners, vice owners, active game participants, assigned users, and reward holders. The final wording should align with the actual app implementation and backend rules.
       </p>
 
-      <p className="text-sm text-[#171812]/70">
-        Review the <Link href="/roam/privacy" className="text-[#607B3F] underline underline-offset-4">Privacy Policy</Link> and the <Link href="/roam/support" className="text-[#607B3F] underline underline-offset-4">Support</Link> page for more details.
+      <p className="text-sm text-[#182348]/70">
+        Review the <Link href="/roam/privacy" className="text-[#2039C4] underline underline-offset-4">Privacy Policy</Link> and the <Link href="/roam/support" className="text-[#2039C4] underline underline-offset-4">Support</Link> page for more details.
       </p>
     </RoamPageLayout>
   );
