@@ -1,0 +1,20 @@
+.roam-release {
+  min-height: 100vh;
+  padding-inline: 1.5rem;
+  background: #fffaf4;
+  color: #081b58;
+}
+.roam-release :is(header, main, footer) { max-width: 42rem; margin-inline: auto; }
+.roam-release :is(header, footer) { display: flex; flex-wrap: wrap; gap: 1rem; padding-block: 1.25rem; }
+.roam-release header { justify-content: space-between; border-bottom: 1px solid #d9e1ec; }
+.roam-release footer { border-top: 1px solid #d9e1ec; }
+.roam-release main { padding-block: 3rem; line-height: 1.65; }
+.roam-release h1 { margin-block: .4em .65em; font-size: clamp(2.4rem, 8vw, 4.6rem); line-height: 1; letter-spacing: -.06em; font-weight: 750; }
+.roam-release h2 { margin-block: 1.5em .45em; font-size: 1.4rem; font-weight: 700; }
+.roam-release p { margin-block: .65em; }
+.roam-release :is(ul, ol) { padding-inline-start: 1.4rem; }
+.roam-release ul { list-style: disc; }
+.roam-release ol { list-style: decimal; }
+.roam-release li + li { margin-top: .4em; }
+.roam-release a { color: #0053ce; text-decoration: underline; text-underline-offset: .2em; }
+.roam-release a:focus-visible { outline: 2px solid #0053ce; outline-offset: 4px; }
