@@ -49,6 +49,10 @@ export default function RoamPage() {
       </main>
       <footer className="studio-footer studio-wrap">
         <Link href="/">Back to HERE</Link>
+        <Link href="/roam/support">Support</Link>
+        <Link href="/roam/privacy">Privacy Policy</Link>
+        <Link href="/roam/terms">Terms of Use</Link>
+        <Link href="/roam/delete-account">Delete your account</Link>
       </footer>
     </div>
   );
