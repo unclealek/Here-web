@@ -14,7 +14,7 @@ export default function SupportPage() {
     >
       <LegalSection title="Getting started">
         <p>
-          If you are new to Roam, start by creating your account and checking your profile, privacy settings, and notifications. If you need help with a group, invite, or Secret Santa setup, contact <a href="mailto:roamsupport@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a> and include the specific issue.
+          If you are new to Roam, start by creating your account and checking your profile, privacy settings, and notifications. If you need help with a group, invite, or Secret Santa setup, contact <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a> and include the specific issue.
         </p>
       </LegalSection>
 
@@ -87,6 +87,18 @@ export default function SupportPage() {
         </p>
         <p>
           Include the relevant group, user, and date information and a short explanation of the problem. If there is an immediate safety threat, contact emergency services or local authorities as appropriate and then notify support.
+        </p>
+      </LegalSection>
+
+      <LegalSection title="Report a concern">
+        <p>
+          You can report a group or a member directly through the Roam mobile app. Open the relevant group or member in the app and use the reporting option to send your concern.
+        </p>
+        <p>
+          If you cannot access the app, email <a href="mailto:support@moredata.app" className="text-[#607B3F] underline underline-offset-4">support@moredata.app</a> with the group or member details and a brief description of what happened. Please avoid including passwords or unrelated sensitive information.
+        </p>
+        <p>
+          For more on respectful participation and prohibited behavior, read the <Link href="/roam/community-guidelines" className="text-[#607B3F] underline underline-offset-4">Roam Community Guidelines</Link>.
         </p>
       </LegalSection>
 

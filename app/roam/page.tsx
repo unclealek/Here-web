@@ -48,7 +48,7 @@ export default function RoamPage() {
         </section>
       </main>
       <footer className="studio-footer studio-wrap">
-        <Link href="/">Back to HERE</Link>
+        <Link href="/here">HERE</Link>
         <Link href="/roam/support">Support</Link>
         <Link href="/roam/privacy">Privacy Policy</Link>
         <Link href="/roam/terms">Terms of Use</Link>

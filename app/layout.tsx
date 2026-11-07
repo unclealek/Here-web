@@ -3,16 +3,16 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HERE — Be where life happens",
-  description: "Discover places, sense the atmosphere, and connect with the world around you. HERE is the privacy-first social discovery experience, starting in Helsinki.",
-  applicationName: "HERE",
+  title: "More Data — Good ideas, made for people",
+  description: "More Data creates digital products for shared experiences, including HERE and Roam.",
+  applicationName: "More Data",
   openGraph: {
-    title: "HERE — Be where life happens",
-    description: "People. Places. Presence. A different kind of social discovery.",
+    title: "More Data — Good ideas, made for people",
+    description: "Digital products for shared experiences, including HERE and Roam.",
     type: "website",
     locale: "en_US",
   },
-  icons: { icon: "/icon.svg" },
+  icons: { icon: "/moredata.svg" },
   robots: { index: true, follow: true },
 };
 

@@ -7,8 +7,8 @@ export function LegalShell({ eyebrow, title, intro, sections, summary }: { eyebr
     <main className="min-h-screen bg-[#F7F4EE] text-[#171812]">
       <header className="border-b border-[#607B3F]/20 px-6 py-5 md:px-12">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-6">
-          <Link href="/" className="text-2xl font-semibold tracking-[-0.08em]">HERE.</Link>
-          <Link href="/" className="text-sm text-[#607B3F] hover:underline">← Back to HERE</Link>
+          <Link href="/here" className="text-2xl font-semibold tracking-[-0.08em]">HERE.</Link>
+          <Link href="/here" className="text-sm text-[#607B3F] hover:underline">← Back to HERE</Link>
         </div>
       </header>
       <article className="mx-auto max-w-3xl px-6 pb-24 pt-16 md:pt-24">
@@ -42,10 +42,10 @@ export function LegalShell({ eyebrow, title, intro, sections, summary }: { eyebr
         </div>
         <div className="mt-16 border-t border-[#607B3F]/20 pt-8 text-sm text-[#607B3F]">
           <div className="flex flex-wrap gap-5">
-            <Link href="/help" className="hover:underline">Help Center</Link>
-            <Link href="/terms" className="hover:underline">Terms</Link>
-            <Link href="/privacy" className="hover:underline">Privacy</Link>
-            <Link href="/community-guidelines" className="hover:underline">Community guidelines</Link>
+            <Link href="/here/help" className="hover:underline">Help Center</Link>
+            <Link href="/here/terms" className="hover:underline">Terms</Link>
+            <Link href="/here/privacy" className="hover:underline">Privacy</Link>
+            <Link href="/here/community-guidelines" className="hover:underline">Community guidelines</Link>
           </div>
         </div>
       </article>

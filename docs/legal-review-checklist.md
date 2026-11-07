@@ -1,6 +1,6 @@
 # Pre-launch legal-page review
 
-The `/terms`, `/privacy` and `/community-guidelines` pages are **drafts**, not approved legal documents. They are marked accordingly on the website and set `noindex` to avoid accidental indexing before review.
+The HERE `/here/terms`, `/here/privacy` and `/here/community-guidelines` pages are **drafts**, not approved legal documents. They are marked accordingly on the website and set `noindex` to avoid accidental indexing before review.
 
 Before making these final:
 

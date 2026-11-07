@@ -1,6 +1,6 @@
-# HERE — Marketing website
+# More Data — Website
 
-The marketing website for **HERE**, a venue-based social discovery experience. Adapted from the user's EVASION e-commerce template into an editorial, scroll-driven Next.js site.
+The website for **More Data**, with individual product pages for HERE and Roam. HERE is a venue-based social discovery experience with an editorial, scroll-driven landing page.
 
 ## Included
 - Immersive expanding / bento-style scroll hero
@@ -30,7 +30,7 @@ pnpm build
 ```
 
 ## Deploy to Vercel (recommended)
-1. Unzip this folder and add it to a new GitHub repository, e.g. `here-website`.
+1. Add this project to its More Data GitHub repository.
 2. Open https://vercel.com/new and **Import Git Repository**.
 3. Choose the repository, keep **Framework Preset: Next.js**, and set **Root Directory** to the root containing `package.json`.
 4. Deploy. There are **no required environment variables** for this marketing website. Optional `NEXT_PUBLIC_IOS_APP_URL` and `NEXT_PUBLIC_ANDROID_APP_URL` enable download links on invitation handoff pages once the apps are publicly available.
@@ -45,12 +45,15 @@ vercel
 vercel --prod
 ```
 
-## Added website routes
+## Website routes
 
-- `/terms` — clearly marked pre-launch draft Terms of Use
-- `/privacy` — clearly marked pre-launch draft Privacy Policy
-- `/community-guidelines` — clearly marked pre-launch draft Community Guidelines
-- `/g/[shareId]` — generic **app-only** invitation handoff; no web gathering details, no website Supabase access
+- `/` — More Data overview and product links
+- `/here` — HERE landing page
+- `/here/terms`, `/here/privacy`, `/here/community-guidelines`, `/here/help` — HERE information pages
+- `/here/g/[shareId]` — generic **app-only** invitation handoff; no web gathering details, no website Supabase access
+- `/roam` and `/roam/*` — Roam product, legal, and support pages
+
+The previous top-level HERE paths redirect to their `/here/*` equivalents.
 
 See `docs/gathering-integration.md` for the app-only Expo + Supabase + Vercel linking plan, `docs/example-gathering-schema.sql` for an optional host-only schema example, and `docs/legal-review-checklist.md` before making the legal pages official.
 
@@ -61,12 +64,13 @@ See `docs/gathering-integration.md` for the app-only Expo + Supabase + Vercel li
 - The phone-like experience is a visual illustration, not a real presence API, venue-density prediction, sign-in or mobile-app embed.
 - Add real App Store / Google Play links after the apps are published. Do not represent pre-release buttons as live downloads.
 - Review the three new draft legal pages against real app behavior, provide missing company/controller/contacts, and obtain legal review before public launch.
-- Replace the site icon and wordmark if HERE finalizes a different logo design.
+- Replace the More Data site icon and HERE product icon if either brand changes.
 - Test on physical mobile devices with motion / reduced-motion accessibility enabled.
 
 ## Key files
-- `app/page.tsx`: section order
-- `app/layout.tsx`: metadata
+- `app/page.tsx`: More Data homepage
+- `app/here/page.tsx`: HERE section order
+- `app/layout.tsx`: site-wide metadata
 - `app/globals.css`: global styling and palette
 - `components/header.tsx`: navigation
 - `components/sections/`: every section, each separately editable

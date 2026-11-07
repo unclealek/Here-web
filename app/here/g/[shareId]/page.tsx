@@ -38,8 +38,8 @@ export default async function GatheringPage({ params }: Props) {
     <main className="min-h-screen bg-[#F7F4EE] text-[#171812]">
       <header className="border-b border-[#607B3F]/20 px-6 py-5 md:px-12">
         <div className="mx-auto flex max-w-4xl items-center justify-between">
-          <Link href="/" className="text-2xl font-semibold tracking-[-0.08em]">HERE.</Link>
-          <Link href="/" className="flex items-center gap-2 text-sm text-[#607B3F]"><ArrowLeft size={16} /> About HERE</Link>
+          <Link href="/here" className="text-2xl font-semibold tracking-[-0.08em]">HERE.</Link>
+          <Link href="/here" className="flex items-center gap-2 text-sm text-[#607B3F]"><ArrowLeft size={16} /> About HERE</Link>
         </div>
       </header>
       <section className="mx-auto flex max-w-3xl flex-col items-center px-6 py-20 text-center md:py-28">
@@ -70,7 +70,7 @@ export default async function GatheringPage({ params }: Props) {
           <span>Gathering details are only shown inside the HERE app. This website does not display the venue, time, or attendees.</span>
         </div>
         <div className="mt-16 flex flex-wrap justify-center gap-5 border-t border-[#607B3F]/20 pt-6 text-sm text-[#607B3F]">
-          <Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/community-guidelines">Community guidelines</Link>
+          <Link href="/here/privacy">Privacy</Link><Link href="/here/terms">Terms</Link><Link href="/here/community-guidelines">Community guidelines</Link>
         </div>
       </section>
     </main>
