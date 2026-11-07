@@ -54,6 +54,9 @@ listing. The copy action preserves the HTTPS invitation for reopening later.
 - Choose the real share domain and route `/here/g/<code>` to this website.
 - Configure `EXPO_PUBLIC_GATHERING_SHARE_ORIGIN` and the app's link builder in the
   mobile build environment so shared URLs use `/here/g/<code>`.
+- The mobile app source is not part of this website repository. Update and verify
+  its link builder and iOS/Android associated-domain rules separately before
+  releasing invitations with the new path.
 - Configure the same domain in the native app's associated domains / intent filters.
 - Publish verified `/.well-known/apple-app-site-association` and
   `/.well-known/assetlinks.json` files using actual signing identifiers.
