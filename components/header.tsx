@@ -9,6 +9,7 @@ const links = [
   { label: "How it works", href: "/#how-it-works" },
   { label: "The experience", href: "/#experience" },
   { label: "Our story", href: "/#our-story" },
+  { label: "Roam", href: "/roam" },
 ];
 
 export function Header() {
@@ -33,7 +34,7 @@ export function Header() {
           <span aria-hidden="true" className="h-2 w-2 border-r-2 border-t-2 border-current opacity-65" />
         </Link>
 
-        <nav aria-label="Main navigation" className="hidden items-center gap-8 lg:flex">
+        <nav aria-label="Main navigation" className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
             <Link key={link.href} href={link.href} className="text-[13px] font-medium opacity-75 transition-opacity hover:opacity-100">
               {link.label}
