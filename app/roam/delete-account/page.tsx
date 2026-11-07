@@ -68,7 +68,7 @@ export default function DeleteAccountPage() {
 
       <LegalSection title="How to request deletion">
         <p>
-          To request deletion of your personal account, email support at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a> with a clear request that you want your Roam account deleted.
+          To request deletion of your personal account, email support at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a> with a clear request that you want your Roam account deleted.
         </p>
         <p>
           Include the account email, your Roam username or display name, and any relevant group or game details. If you are a group owner or active participant, mention that context so the support team can review the correct next steps.
@@ -95,7 +95,7 @@ export default function DeleteAccountPage() {
 
       <LegalSection title="Contact support">
         <p>
-          If you need help with a deletion request, account recovery, group ownership transfer, privacy rights, or an active game issue, contact <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
+          If you need help with a deletion request, account recovery, group ownership transfer, privacy rights, or an active game issue, contact <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
         </p>
       </LegalSection>
 

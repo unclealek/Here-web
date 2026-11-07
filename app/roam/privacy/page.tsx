@@ -182,7 +182,7 @@ export default function PrivacyPolicyPage() {
 
       <LegalSection title="15. How users exercise their rights">
         <p>
-          To exercise your rights, contact Roam support at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>. Please include your account email address, the specific right you wish to exercise, and any relevant details that will help Roam identify your data.
+          To exercise your rights, contact Roam support at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>. Please include your account email address, the specific right you wish to exercise, and any relevant details that will help Roam identify your data.
         </p>
         <p>
           Roam may ask for additional information to verify your identity before fulfilling a request, especially where the request concerns account deletion, privacy rights, or support history. This is to protect against unauthorized access to personal data.
@@ -221,7 +221,7 @@ export default function PrivacyPolicyPage() {
           For privacy questions, support requests, or rights requests, contact:
         </p>
         <p>
-          <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>
+          <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>
         </p>
         <p>
           The exact legal address and responsible contact details for the data controller should be verified by the owner before launch.

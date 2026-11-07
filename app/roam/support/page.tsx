@@ -14,7 +14,7 @@ export default function SupportPage() {
     >
       <LegalSection title="Getting started">
         <p>
-          If you are new to Roam, start by creating your account and checking your profile, privacy settings, and notifications. If you need help with a group, invite, or Secret Santa setup, contact <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a> and include the specific issue.
+          If you are new to Roam, start by creating your account and checking your profile, privacy settings, and notifications. If you need help with a group, invite, or Secret Santa setup, contact <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a> and include the specific issue.
         </p>
       </LegalSection>
 
@@ -95,7 +95,7 @@ export default function SupportPage() {
           You can report a group or a member directly through the Roam mobile app. Open the relevant group or member in the app and use the reporting option to send your concern.
         </p>
         <p>
-          If you cannot access the app, email <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a> with the group or member details and a brief description of what happened. Please avoid including passwords or unrelated sensitive information.
+          If you cannot access the app, email <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a> with the group or member details and a brief description of what happened. Please avoid including passwords or unrelated sensitive information.
         </p>
         <p>
           For more on respectful participation and prohibited behavior, read the <Link href="/roam/community-guidelines" className="text-[#2039C4] underline underline-offset-4">Roam Community Guidelines</Link>.
@@ -104,7 +104,7 @@ export default function SupportPage() {
 
       <LegalSection title="Privacy requests">
         <p>
-          To request access, correction, erasure, restriction, portability, or other privacy-related actions, send a message to <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>. Include your account email, a description of the request, and any information that helps confirm your identity.
+          To request access, correction, erasure, restriction, portability, or other privacy-related actions, send a message to <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>. Include your account email, a description of the request, and any information that helps confirm your identity.
         </p>
         <p>
           Roam may need to verify your identity before responding to privacy requests. This is a security step designed to protect account data.
@@ -113,7 +113,7 @@ export default function SupportPage() {
 
       <LegalSection title="Account deletion">
         <p>
-          To request account deletion, contact support at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a> and clearly state that you want to delete your Roam account. Please mention whether you are asking to delete only your personal account or whether the issue also involves a group, owner role, or active game session.
+          To request account deletion, contact support at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a> and clearly state that you want to delete your Roam account. Please mention whether you are asking to delete only your personal account or whether the issue also involves a group, owner role, or active game session.
         </p>
         <p>
           Deleting a personal account is different from deleting a group or game session. Group owners or vice owners may need to transfer ownership or handle group closure before personal account deletion can be completed.
@@ -122,7 +122,7 @@ export default function SupportPage() {
 
       <LegalSection title="Contact support">
         <p>
-          Email the Roam support team at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
+          Email the Roam support team at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
         </p>
         <p>
           Include your account email, the app/platform, the relevant group or game name, and a short description of the issue. If the request is urgent or sensitive, note that in the subject line so it can be prioritized appropriately.

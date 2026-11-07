@@ -95,7 +95,7 @@ export default function CommunityGuidelinesPage() {
 
       <LegalSection title="Reporting inappropriate content">
         <p>
-          If you see abusive, misleading, harmful, or private content that should not be shared, report it through the reporting workflow if the feature exists in the app. Where no dedicated tool is available, contact Roam support at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
+          If you see abusive, misleading, harmful, or private content that should not be shared, report it through the reporting workflow if the feature exists in the app. Where no dedicated tool is available, contact Roam support at <a href="mailto:roamroamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamroamsupport@moredata.app</a>.
         </p>
         <p>
           Include enough detail to explain what happened, when it happened, who was affected, and what action is needed. Reports are more useful when they contain the relevant group or user context and the nature of the problem.
@@ -140,7 +140,7 @@ export default function CommunityGuidelinesPage() {
 
       <LegalSection title="Contact information">
         <p>
-          For questions about safety, reporting, or moderation, contact <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
+          For questions about safety, reporting, or moderation, contact <a href="mailto:roamroamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamroamsupport@moredata.app</a>.
         </p>
         <p>
           If a feature is not yet implemented, it should be treated as part of the product roadmap and not described as present functionality.

@@ -50,7 +50,7 @@ export default function TermsPage() {
           You must keep your account secure and not share your sign-in information with others. You are responsible for all activity that occurs under your account, whether or not you authorized it.
         </p>
         <p>
-          If you suspect unauthorized access, account takeover, or a breach of security, contact support promptly at <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
+          If you suspect unauthorized access, account takeover, or a breach of security, contact support promptly at <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
         </p>
       </LegalSection>
 
@@ -205,7 +205,7 @@ export default function TermsPage() {
 
       <LegalSection title="21. Contact information">
         <p>
-          For questions regarding these Terms, support, moderation, account issues, or privacy concerns, contact <a href="mailto:support@moredata.app" className="text-[#2039C4] underline underline-offset-4">support@moredata.app</a>.
+          For questions regarding these Terms, support, moderation, account issues, or privacy concerns, contact <a href="mailto:roamsupport@moredata.app" className="text-[#2039C4] underline underline-offset-4">roamsupport@moredata.app</a>.
         </p>
         <p>
           The final address and contact process should be verified by the owner before launch.
